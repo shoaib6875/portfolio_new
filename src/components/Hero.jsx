@@ -124,18 +124,18 @@ export default function Hero() {
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45, delay: 0.38 }}
-            className="mt-8 flex flex-wrap items-center gap-3"
-          >
-            <button onClick={() => scrollTo('#projects')} className="btn-primary">
-              View My Work <ArrowRight size={16} />
-            </button>
-            <button onClick={() => scrollTo('#contact')} className="btn-ghost">
-              <Mail size={15} /> Contact Me
-            </button>
-          </motion.div>
+        initial={{ opacity: 0, y: 16 }}
+         animate={{ opacity: 1, y: 0 }}
+         transition={{ duration: 0.45 }}
+  className="mb-5 flex w-full items-center justify-center gap-2 rounded-full px-3.5 py-1.5 text-xs font-medium sm:inline-flex sm:w-auto sm:justify-start"
+  style={{ border: '1px solid var(--accent)', background: 'var(--accent-soft)', color: 'var(--accent)' }}
+>
+       <span className="relative flex h-2 w-2">
+       <span className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-50" style={{ background: 'var(--accent)' }} />
+       <span className="relative inline-flex h-2 w-2 rounded-full" style={{ background: 'var(--accent)' }} />
+       </span>
+     Open to Internships & Full-time Roles
+    </motion.div>
 
           <motion.div
             initial={{ opacity: 0 }}
