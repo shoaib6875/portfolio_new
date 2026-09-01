@@ -1,21 +1,24 @@
 export const personalInfo = {
-  name: "Shoaib Akhtar",
-  shortName: "Shoaib",
-  title: "Java Backend & Full Stack Developer",
-  location: "Delhi, India",
-  email: "sakhtar2003@gmail.com", // placeholder – update with real email
-  github: "https://github.com/shoaib6875",
-  linkedin: "https://www.linkedin.com/in/shoaib-akhtar-a8a07b220/",
-  resume: "#", // update with actual resume link
-  roles: [
-    "Java Backend Developer",
-    "Full Stack Developer",
-    "Software Engineer",
-    "DevOps Enthusiast",
-  ],
-  tagline:
-    "I'm a final-year engineering student passionate about building scalable backend systems, modern web applications, and cloud-powered solutions.",
+name: "Shoaib Akhtar",
+shortName: "Shoaib",
+title: "Java Backend & Full Stack Developer",
+location: "Delhi, India",
+email: "[sakhtar2003@gmail.com](mailto:sakhtar2003@gmail.com)",
+github: "https://github.com/shoaib6875",
+linkedin: "https://www.linkedin.com/in/shoaib-akhtar-a8a07b220/",
+resume: "/Shoaib_Akhtar_Resume.pdf",
+
+roles: [
+"Java Backend Developer",
+"Full Stack Developer",
+"Software Engineer",
+"DevOps Enthusiast",
+],
+
+tagline:
+"I'm a final-year engineering student passionate about building scalable backend systems, modern web applications, and cloud-powered solutions.",
 };
+
 
 export const about = {
   intro: `I'm Shoaib Akhtar, a final-year B.Tech student from Delhi with a strong focus on software engineering. I specialize in Java backend development and full-stack web applications, and I'm currently building projects with Java, Spring Boot, React, and PostgreSQL.`,
@@ -184,12 +187,22 @@ export const experience = [
   },
 ];
 
-export const education = {
-  degree: "Bachelor of Technology",
-  institution: "Maharaja Surajmal Institute of Technology (MSIT), Delhi",
-  field: "Computer Science / Information Technology",
-  status: "Final Year",
-};
+export const education = [
+  {
+    degree: "Bachelor of Technology",
+    institution: "Maharaja Surajmal Institute of Technology (MSIT), Delhi",
+    field: "Computer Science / Information Technology",
+    status: "Final Year",
+  },
+  {
+    degree: "Diploma in Computer Science Engineering",
+    institution: "Jamia Millia Islamia, Delhi",
+    field: "Computer Science Engineering",
+    status: "Completed",
+  },
+];
+
+
 
 export const journey = [
   { stage: "Foundation", description: "Core CS fundamentals & programming basics" },
