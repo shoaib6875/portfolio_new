@@ -3,9 +3,9 @@ export const personalInfo = {
   shortName: "Shoaib",
   title: "Java Backend & Full Stack Developer",
   location: "Delhi, India",
-  email: "shoaibakhtar.dev@gmail.com", // placeholder – update with real email
-  github: "https://github.com/shoaibakhtar",
-  linkedin: "https://linkedin.com/in/shoaibakhtar",
+  email: "sakhtar2003@gmail.com", // placeholder – update with real email
+  github: "https://github.com/shoaib6875",
+  linkedin: "https://www.linkedin.com/in/shoaib-akhtar-a8a07b220/",
   resume: "#", // update with actual resume link
   roles: [
     "Java Backend Developer",
