@@ -134,7 +134,7 @@ export default function Hero() {
        <span className="absolute inline-flex h-full w-full animate-ping rounded-full opacity-50" style={{ background: 'var(--accent)' }} />
        <span className="relative inline-flex h-2 w-2 rounded-full" style={{ background: 'var(--accent)' }} />
        </span>
-     Open to Internships & Full-time Roles
+      🙋🏻‍♂️
     </motion.div>
 
           <motion.div

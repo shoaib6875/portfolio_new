@@ -192,13 +192,13 @@ export const education = [
     degree: "Bachelor of Technology",
     institution: "Maharaja Surajmal Institute of Technology (MSIT), Delhi",
     field: "Computer Science / Information Technology",
-    status: "Final Year",
+    status: "Aug 2024 - May 2027",
   },
   {
     degree: "Diploma in Computer Science Engineering",
     institution: "Jamia Millia Islamia, Delhi",
     field: "Computer Science Engineering",
-    status: "Completed",
+    status: "Jan 2024",
   },
 ];
 
